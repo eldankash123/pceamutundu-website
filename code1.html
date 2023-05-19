@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<style>
+  /* Style the header */
+  header {
+    background-color: #640505;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  section p,
+  section ul {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+  }
+
+  /* Style the contact form */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  form textarea {
+    height: 150px;
+  }
+
+  form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  form button[type="submit"]:hover {
+    background-color: #555;
+  }
+</style>
+
+<html>
+  <head>
+    <title>PCEA Mutundu Church</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PCEA Mutundu Church</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          PCEA Mutundu Church is located in Dunduri, Nakuru County. Our mission
+          is to preach Christ to all the earth.
+        </p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Sunday Worship - 10:00 am</li>
+          <li>Bible Study - Wednesdays at 7:00 pm</li>
+          <li>Prayer Meeting - Fridays at 6:00 pm</li>
+        </ul>
+      </section>
+      <section id="events">
+        <h2>Events</h2>
+        <ul>
+          <li>Women's Conference - March 20-21, 2023</li>
+          <li>Youth Camp - August 5-7, 2023</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 PCEA Mutundu Church</p>
+    </footer>
+  </body>
+</html>
